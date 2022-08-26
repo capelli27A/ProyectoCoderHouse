@@ -10,28 +10,24 @@ body {
 }
 .hero {
     height: 500px;
-    background-image: url("./Imagenes-Buzios/hero-index-1.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .playa {
-    background-image: url("../Imagenes-Buzios/hero-playas.jpg");
+    background-image: url("../imagenes-buzios/hero-playas.jpg");
 }
 .index {
-    background-image: url("../Imagenes-Buzios/hero-index-1.jpg");
+    background-image: url("../imagenes-buzios/hero-index-1.jpg");
 }
 
     
 .gastro {
-    background-image: url("../Imagenes-Buzios/hero-gastronomia-3.jpg");
+    background-image: url("../imagenes-buzios/hero-gastronomia-3.jpg");
 }
 .hospe {
-    background-image: url("../Imagenes-Buzios/hero-hospedaje-3.jpg");
+    background-image: url("../imagenes-buzios/hero-hospedaje-3.jpg");
 }
-
-
-
 
 .nav-link:hover{
     color: rgb(222, 200, 6);
