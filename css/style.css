@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Dosis:wght@300&family=IBM+Plex+Serif:ital,wght@0,100;0,200;1,100&family=Inconsolata:wght@300&family=Kalam:wght@300&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+.hero {
+    height: 500px;
+    background-image: url(./Imagenes-Buzios/hero-index-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.playa {
+    background-image: url(../Imagenes-Buzios/hero-playas.jpg);
+}
+.index {
+    background-image: url(../Imagenes-Buzios/hero-index-1.jpg);
+}
+
+    
+.gastro {
+    background-image: url(../Imagenes-Buzios/hero-gastronomia-3.jpg);
+}
+.hospe {
+    background-image: url(../Imagenes-Buzios/hero-hospedaje-3.jpg);
+}
+
+
+
+
+.nav-link:hover{
+    color: rgb(222, 200, 6);
+}
+li {
+    padding: 0 8px;
+}
+    
+h1{
+    padding: 30px;
+    font-size: 50px;
+    font-family: 'IBM Plex Serif', serif;
+}
+.main-contacto{
+    margin: 50px;
+}
+
+h2{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+    
+}
+.main .h2 {
+    font-size: 2rem;
+    font-family: 'Archivo', sans-serif;;
+}
+
+.contenedor {
+    height: 400px;
+    width:1200px;
+    
+}
+
+.sec-main{
+    width: 90%;
+    min-height: 500px;
+    ;
+}
+.main-flex{
+    align-items: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 10px 10px 20px;
+}
+
+.sec-main h2{ 
+    padding: 15px;
+}
+.sec-main p{
+    padding: 15px;
+}
+
+h3{
+
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+hr {
+    padding: 10px;
+    background-color: #ccc;
+}
+p {
+    
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+}
+.fotos {
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    width: 800px;
+    margin: auto;
+    
+    
+}
+
+.imagenes { 
+    margin-top: 40px;
+    display: grid ;
+    grid-template-columns: repeat(4, 330px);
+    justify-content: center;
+}
+
+.imagenes article{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    border-radius: 12px;
+    margin: 10px;
+    height: 350px;
+    width: 300px;   
+}
+
+ article:hover{
+    background-color: rgb(220, 220, 220);
+    transition: all 0.5s ease;
+    
+ }
+ 
+
+img{
+    max-width: 100%;
+    padding-top:40px;
+    
+}
+.imagenes img{
+    width: 270px;
+    height: 150px;
+}
+
+section{
+    padding: 60px;
+}
+.footer {
+    margin-top: 40px;
+    padding: 40px;
+    color: bisque;
+    font-size: 20px;
+    background-color: rgb(122, 122, 122);
+    text-align: center;
+}
+.footer p {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer a {
+    padding:10px;
+    color: beige;
+}
+
+
+@media screen and (max-width: 320px) {
+    .nav-bar li{
+        display: block;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 { 
+        font-size: 14px;
+    }
+   
+    .hero {
+        height: 200px;
+    }
+
+    .main img {
+        width: 100%;
+    }
+    
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+     
+}
+
+
+
