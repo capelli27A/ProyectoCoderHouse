@@ -57,22 +57,17 @@ h2{
 }
 
 .contenedor {
-    height: 400px;
-    width:1200px;
-    
+    background-color: beige;
 }
-
 .sec-main{
     width: 90%;
-    min-height: 500px;
-    ;
+    
 }
 .main-flex{
-    align-items: center;
-    display: flex;
     margin: 20px auto;
     padding: 10px;
     box-shadow: 10px 10px 20px;
+    align-items: center;
 }
 
 .sec-main h2{ 
@@ -86,8 +81,7 @@ h3{
     padding-top: 5px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 hr {
     padding: 10px;
@@ -103,18 +97,11 @@ p {
     text-align: center;
 }
 
-#carouselExampleIndicators {
-    width: 800px;
-    margin: auto;
-    
-    
-}
-
 .imagenes { 
     margin-top: 40px;
     display: grid ;
     grid-template-columns: repeat(4, 330px);
-    justify-content: center;
+    align-items: center;
 }
 
 .imagenes article{
@@ -125,17 +112,16 @@ p {
     width: 300px;   
 }
 
+
  article:hover{
     background-color: rgb(220, 220, 220);
     transition: all 0.5s ease;
     
  }
  
-
 img{
     max-width: 100%;
     padding-top:40px;
-    
 }
 .imagenes img{
     width: 270px;
@@ -164,10 +150,7 @@ section{
 }
 
 
-@media screen and (max-width: 320px) {
-    .nav-bar li{
-        display: block;
-    }
+@media screen and (max-width:450px) {
     h1 {
         font-size: 25px;
     }
@@ -179,7 +162,8 @@ section{
     }
    
     .hero {
-        height: 200px;
+        
+        height: 600px;
     }
 
     .main img {
@@ -189,7 +173,7 @@ section{
     .imagenes {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
      }
      
 }
