@@ -10,15 +10,15 @@ body {
 }
 .hero {
     height: 500px;
+    position: relative;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
 }
 .playa {
-    background-image: url("../imagenes-buzios/hero-playas.jpg");
+    background-image: url("../imagenes-buzios/cape-playa.jpg");
 }
 .index {
-    background-image: url("../imagenes-buzios/hero-index-1.jpg");
+    background-image: url("../imagenes-buzios/cape-buzios.jpg");
 }
 
     
@@ -57,7 +57,7 @@ h2{
 }
 
 .contenedor {
-    background-color: beige;
+    background-color: rgb(253, 253, 226);
 }
 .sec-main{
     width: 90%;
@@ -133,10 +133,10 @@ section{
 }
 .footer {
     margin-top: 40px;
-    padding: 40px;
+    padding: 10px;
     color: bisque;
     font-size: 20px;
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(27, 26, 26);
     text-align: center;
 }
 .footer p {
@@ -149,6 +149,15 @@ section{
     color: beige;
 }
 
+@media screen and (max-width:810px) {
+    .imagenes {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows:  1fr 1fr 1fr 1fr;
+        justify-items: center;
+        }
+   
+}
 
 @media screen and (max-width:450px) {
     h1 {
@@ -160,23 +169,15 @@ section{
     h3 { 
         font-size: 14px;
     }
-   
-    .hero {
-        
-        height: 600px;
-    }
-
     .main img {
-        width: 100%;
+        width: 80%;
     }
-    
     .imagenes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        justify-items: center;
      }
+    
+   
      
 }
-
-
-
