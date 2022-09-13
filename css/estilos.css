@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Dosis:wght@300&family=IBM+Plex+Serif:ital,wght@0,100;0,200;1,100&family=Inconsolata:wght@300&family=Kalam:wght@300&family=Source+Serif+Pro:ital,wght@1,300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar-nav li {
+  padding: 0 15px;
+}
+.navbar-nav .nav-link:hover {
+  color: rgb(255, 236, 60);
+}
+
+.hero {
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.playa {
+  background-image: url("../imagenes-buzios/cape-playa.jpg");
+}
+
+.index {
+  background-image: url("../imagenes-buzios/cape-buzios.jpg");
+}
+
+.gastro {
+  background-image: url("../imagenes-buzios/hero-gastronomia-3.jpg");
+}
+
+.hospe {
+  background-image: url("../imagenes-buzios/hero-hospedaje-3.jpg");
+}
+
+body {
+  text-align: center;
+}
+
+hr {
+  padding: 10px;
+  background-color: #ccc;
+}
+
+h1 {
+  padding: 30px;
+  font-size: 50px;
+  font-family: "IBM Plex Serif", serif;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Kalam", cursive;
+}
+
+h3 {
+  padding-top: 5px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px;
+}
+
+img {
+  max-width: 100%;
+  padding-top: 40px;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  padding: 8px;
+}
+
+.main .h2 {
+  font-size: 2rem;
+  font-family: "Archivo", sans-serif;
+}
+.main .sec-main h2 {
+  padding: 15px;
+  -webkit-text-decoration: underline solid #156F05;
+          text-decoration: underline solid #156F05;
+}
+.main .sec-main p {
+  padding: 12px;
+}
+.main .sec-main .contenedor {
+  background-color: rgb(255, 255, 255);
+}
+.main .sec-main .main-flex {
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 10px 10px 20px;
+  align-items: center;
+}
+
+.imagenes {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 330px);
+}
+.imagenes img {
+  width: 270px;
+  height: 150px;
+}
+.imagenes article {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 12px;
+  margin: 10px;
+  height: 350px;
+  width: 300px;
+}
+.imagenes article:hover {
+  background-color: rgb(223, 210, 98);
+  transition: all 0.9s ease;
+}
+
+.main-contacto h1 {
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 10px;
+  color: bisque;
+  font-size: 20px;
+  background-color: rgb(27, 26, 26);
+  text-align: center;
+}
+.footer p {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer a {
+  padding: 10px;
+  color: beige;
+}
+
+@media screen and (max-width: 810px) {
+  .imagenes {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .main img {
+    width: 80%;
+  }
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagenes article {
+    height: 400px;
+    width: 400px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
